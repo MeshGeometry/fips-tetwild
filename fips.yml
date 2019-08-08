@@ -1,0 +1,7 @@
+#
+# fips-tetwild
+#
+---
+exports:
+    header-dirs: 
+      - TetWild/include

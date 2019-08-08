@@ -1,0 +1,3 @@
+[submodule "TetWild"]
+	path = TetWild
+	url = https://github.com/MeshGeometry/TetWild.git
