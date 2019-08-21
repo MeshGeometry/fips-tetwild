@@ -5,3 +5,6 @@
 exports:
     header-dirs: 
       - TetWild/include
+      - TetWild/src
+    modules:
+      TetWild: TetWild/

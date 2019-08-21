@@ -16,7 +16,8 @@ endif(MSVC)
 set(FIPS_RTTI ON CACHE BOOL "Enable C++ RTTI" FORCE)
 set(FIPS_EXCEPTIONS ON CACHE BOOL "Enable C++ exceptions" FORCE)
 
-add_subdirectory(TetWild/)
+# add_subdirectory(TetWild/)
+# fips_libs(libTetWild igl::cgal)
 
 if (NOT FIPS_IMPORT)
     fips_finish()
